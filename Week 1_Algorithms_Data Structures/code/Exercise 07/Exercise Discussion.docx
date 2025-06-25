@@ -1,0 +1,5 @@
+The process of Recursion is a method where a function calls itself to solve smaller instances of the same problem. It simplifies complex problems by breaking them down into more manageable sub-problems. In the context of financial forecasting, recursion can be used to calculate future values based on past growth trends.
+
+A recursive method was implemented to predict future values by applying a consistent growth rate to the previous value. While the recursive approach is conceptually simple and closely mirrors the forecasting logic, it can become inefficient due to repeated calculations.
+
+The time complexity of the basic recursive algorithm is exponential, especially when it recalculates the same values multiple times. To optimize this, techniques like memoization or converting the solution to an iterative version can be used. These reduce redundant computations and significantly improve performance, making the approach more practical for real-world financial forecasting tools.
